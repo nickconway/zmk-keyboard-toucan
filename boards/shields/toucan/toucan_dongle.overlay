@@ -1,0 +1,20 @@
+#include "toucan.dtsi"
+
+&chosen {
+    zmk,kscan = &mock_kscan;
+
+    mock_kscan: mock_kscan {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+};
+
+&glidepoint_split {
+    status = "okay";
+};
+
+&glidepoint_listener {
+    status = "okay";
+};
