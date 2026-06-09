@@ -2,19 +2,16 @@ manifest:
     defaults:
         revision: main
     remotes:
-        - name: zmkfirmware
-          url-base: https://github.com/zmkfirmware
-        - name: petejohanson
-          url-base: https://github.com/petejohanson/
         - name: caksoylar
           url-base: https://github.com/caksoylar
-        - name: geeksville
-          url-base: https://github.com/geeksville
+        - name: nickconway
+          url-base: https://github.com/nickconway
     projects:
-        - name: zmk
-          remote: zmkfirmware
-          import: app/west.yml
         - name: zmk-rgbled-widget
           remote: caksoylar
+          path: extra-modules/zmk-rgbled-widget
+        - name: zmk-component-sharp-display
+          remote: nickconway
+          path: extra-modules/sharp-display
     self:
         path: config
