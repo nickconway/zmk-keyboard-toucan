@@ -1,0 +1,4 @@
+name: toucan2
+append:
+    EXTRA_CONF_FILE: toucan2.conf
+    EXTRA_DTC_OVERLAY_FILE: toucan2.overlay
