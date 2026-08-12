@@ -6,6 +6,8 @@ manifest:
           url-base: https://github.com/caksoylar
         - name: nickconway
           url-base: https://github.com/nickconway
+        - name: beekeeb
+          url-base: https://github.com/beekeeb
     projects:
         - name: zmk-rgbled-widget
           remote: caksoylar
@@ -13,5 +15,9 @@ manifest:
         - name: zmk-component-sharp-display
           remote: nickconway
           path: extra-modules/sharp-display
+        - name: zmk_driver_azoteq
+          remote: beekeeb
+          revision: main
+          path: extra-modules/azoteq
     self:
         path: config

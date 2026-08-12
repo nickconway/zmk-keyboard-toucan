@@ -1,7 +1,7 @@
 #include "toucan.dtsi"
 #include "toucan_spi.dtsi"
 
-&group1 {
+&spi_group1 {
     bias-pull-down; // minimize power leakage during sleep
 };
 
@@ -30,5 +30,5 @@
 
 &trackpad_split {
     status = "okay";
-    device = <&trackpad>;
+    device = <&glidepoint>;
 };
