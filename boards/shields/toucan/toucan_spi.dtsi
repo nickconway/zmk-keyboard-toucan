@@ -24,7 +24,7 @@ spi_node: &spi0 {
     pinctrl-1 = <&spi0_sleep>;
     pinctrl-names = "default", "sleep";
 
-    glidepoint: glidepoint@0 {
+    trackpad: trackpad@0 {
         compatible = "cirque,pinnacle";
         status = "okay";
         reg = <0>;

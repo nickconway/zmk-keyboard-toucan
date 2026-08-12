@@ -24,11 +24,11 @@
     ;
 };
 
-&glidepoint_listener {
+&trackpad_listener {
     status = "disabled";
 };
 
-&glidepoint_split {
+&trackpad_split {
     status = "okay";
-    device = <&glidepoint>;
+    device = <&trackpad>;
 };

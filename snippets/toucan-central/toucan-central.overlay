@@ -1,7 +1,7 @@
-&glidepoint_split {
+&trackpad_split {
     status = "okay";
 };
 
-&glidepoint_listener {
+&trackpad_listener {
     status = "okay";
 };
