@@ -15,9 +15,9 @@ manifest:
         - name: zmk-component-sharp-display
           remote: nickconway
           path: extra-modules/sharp-display
-        - name: zmk_driver_azoteq
-          remote: beekeeb
-          revision: main
+        - name: zmk-component-azoteq-tps43
+          remote: nickconway
+          revision: multi-finger
           path: extra-modules/azoteq
     self:
         path: config

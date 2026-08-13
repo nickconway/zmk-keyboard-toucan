@@ -48,12 +48,8 @@
         two-finger-tap;
         single-tap;
         press-and-hold;
-        //swipes;
-        three-finger-swipe;
-        three-finger-swipe-throttle-ms = <1200>;
+        multi-finger-swipes;
         switch-xy;
-        // invert-scroll-y;
-
     };
 };
 
